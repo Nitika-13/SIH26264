@@ -1,10 +1,6 @@
-
 # Progress log
 
-| Module    | Status      | Real or mocked | Notes |
-| --------- | ----------- | -------------- | ----- |
-| A1        | not started |                |       |
-| A2        | not started |                |       |
-| A3        | not started |                |       |
-| A4        | not started |                |       |
-| B1 to B10 | not started |                |       |
+| Module   | Status                        | Real or mocked | Notes |
+| -------- | ----------------------------- | -------------- | ----- |
+| M0       | schema done, seed in progress | real           |       |
+| M1 to M9 | not started                   |                |       |

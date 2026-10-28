@@ -1,20 +1,13 @@
-
 # Build order
 
-Stage A: UI with mock data
-A1 Foundation and design system
-A2 Complainant: file and track
-A3 Officer case management
-A4 Leadership analytics
-
-Stage B: Backend
-B1 Schema and security (Supabase, RLS)
-B2 Auth and roles
-B3 Replace mocks with real data
-B4 AI routing (Gemini via Edge Function, with fallback)
-B5 SLA and escalation
-B6 Analytics on real data
-B7 Notifications and audit trail
-B8 Multilingual
-B9 Harden, test, deploy
-B10 Pitch assets
+   See docs/PROMPTS.md. Modules M0 to M9, in order:
+   M0 Supabase setup (done by the owner)
+   M1 Foundation, shell, design system, mock data
+   M2 Complainant journey
+   M3 Officer workspace
+   M4 Switch from mock to Supabase
+   M5 Gemini routing and translation
+   M6 SLA and escalation UI
+   M7 Leadership analytics
+   M8 Polish, accessibility, PWA
+   M9 Deploy and pitch

@@ -1,7 +1,4 @@
-
-
-
-# SIH26264: AICTE Complaint Monitoring Dashboard
+SIH26264: AICTE Complaint Monitoring Dashboard
 
 Integrated portal to submit, route, track, escalate and analyse institution-related complaints across AICTE bureaus and cells.
 

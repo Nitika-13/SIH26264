@@ -146,7 +146,6 @@ $$
 create trigger trg_complaints_before_insert before insert on complaints
   for each row execute function complaints_before_insert();
 
-
 create or replace function complaints_after_insert() returns trigger
 language plpgsql security definer set search_path = public as 
 
