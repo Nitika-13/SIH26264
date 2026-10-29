@@ -1,0 +1,56 @@
+:root {
+  --paper: #F7F3EA;
+  --surface: #FFFFFF;
+  --ink: #17213B;
+  --muted: #4F596E;
+  --line: #D9D2C3;
+  --navy: #0B2A5B;
+  --on-navy: #FFFFFF;
+  --kesari: #E8890C;
+  --kesari-soft: #FBE7C6;
+  --focus: #1F4FB4;
+  --flag-green: #138808;
+
+  --st-submitted: #4F596E;
+  --st-submitted-bg: #ECEAE4;
+  --st-review: #1F4FB4;
+  --st-review-bg: #E3EBFA;
+  --st-notice: #8A5A00;
+  --st-notice-bg: #FBEBCF;
+  --st-resolved: #1E6B4F;
+  --st-resolved-bg: #DDEFE7;
+  --st-escalated: #B3321F;
+  --st-escalated-bg: #F7DDD8;
+}
+
+html[data-text-size="100"] {
+  font-size: 16px;
+}
+
+html[data-text-size="112"] {
+  font-size: 17.92px;
+}
+
+html[data-text-size="125"] {
+  font-size: 20px;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.jaali-pattern {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 8px,
+    var(--line) 8px,
+    var(--line) 9px
+  );
+}
+
+.kesari-rule {
+  height: 3px;
+  width: 48px;
+  background-color: var(--kesari);
+}

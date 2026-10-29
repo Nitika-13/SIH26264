@@ -1,0 +1,37 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: var(--paper);
+    color: var(--ink);
+    font-family: 'Anek Latin', 'Anek Devanagari', 'Anek Telugu', system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Eczar', 'Anek Devanagari', 'Anek Telugu', Georgia, serif;
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  /* Accessible visible focus ring */
+  *:focus-visible {
+    outline: 3px solid var(--focus) !important;
+    outline-offset: 2px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
